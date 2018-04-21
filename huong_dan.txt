@@ -1,0 +1,1 @@
+vao thu muc node_sever. Chay lên node server truoc khi chay php (de yen cau so k tat)

@@ -17,7 +17,7 @@
 </head>
 <body>
 
-
+    <div id="content"></div>
     <div class="container">
         <div class="row pad-top pad-bottom">
             <div class="chat-box-footer">
@@ -40,7 +40,7 @@
     <script>
         var socket = io('http://localhost:3000');
         socket.on('get_chat_server',function(data){
-            alert(data);
+            $('#content').html(data);
         })
         $(document).ready(function(){
             $('#send').click(function(){
